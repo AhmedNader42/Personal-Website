@@ -3,7 +3,7 @@
     font-family: system-ui;
 }
 body {
-    background-color: cornsilk;
+    background-color: whitesmoke;
 }
 
 hr {
@@ -44,7 +44,7 @@ a {
 /* Slideshow container */
 .slideshow-container {
     position: relative;
-    background: cornsilk;
+    background: whitesmoke;
 }
 
 /* Slides */
@@ -90,7 +90,6 @@ a {
 .dot-container {
     text-align: center;
     padding: 0px;
-    background: #ddd;
 }
 
 /* The dots/bullets/indicators */
@@ -125,7 +124,7 @@ a {
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 6px;
     background-color: blueviolet;
@@ -145,7 +144,7 @@ a {
 
 /* The circles on the timeline */
 .container::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 25px;
     height: 25px;
@@ -169,7 +168,7 @@ a {
 
 /* Add arrows to the left container (pointing right) */
 .left::before {
-    content: ' ';
+    content: " ";
     height: 0;
     position: absolute;
     top: 22px;
@@ -183,7 +182,7 @@ a {
 
 /* Add arrows to the right container (pointing left) */
 .right::before {
-    content: ' ';
+    content: " ";
     height: 0;
     position: absolute;
     top: 22px;
