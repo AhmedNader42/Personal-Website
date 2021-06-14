@@ -128,7 +128,7 @@ a {
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 6px;
     background-color: blueviolet;
@@ -148,7 +148,7 @@ a {
 
 /* The circles on the timeline */
 .container::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 25px;
     height: 25px;
@@ -172,7 +172,7 @@ a {
 
 /* Add arrows to the left container (pointing right) */
 .left::before {
-    content: " ";
+    content: ' ';
     height: 0;
     position: absolute;
     top: 22px;
@@ -186,7 +186,7 @@ a {
 
 /* Add arrows to the right container (pointing left) */
 .right::before {
-    content: " ";
+    content: ' ';
     height: 0;
     position: absolute;
     top: 22px;
@@ -246,7 +246,7 @@ a {
 }
 
 /* Experiment */
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
 html {
     position: relative;
     overflow-x: hidden !important;
@@ -447,7 +447,7 @@ a:hover {
 .profile-card__button {
     background: none;
     border: none;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 19px;
     margin: 15px 35px;
@@ -567,7 +567,7 @@ a:hover {
     padding: 15px 20px;
     color: #324e63;
     font-weight: 500;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     outline: none;
     transition: all 0.3s;
 }
@@ -590,6 +590,7 @@ a:hover {
 
 /* image previews */
 .preview-container {
+    display: none;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -600,8 +601,20 @@ a:hover {
 }
 .preview {
     border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
     max-width: 100%;
     max-height: 70%;
     vertical-align: bottom;
-    box-shadow: 2px 2px 3px 0 rgba(0, 0, 0, 0.4);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(autofill, 5vw);
+}
+
+.grid_item {
+    width: 12vw;
+    height: 24vw;
 }
