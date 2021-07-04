@@ -1,6 +1,6 @@
 /* General */
 * {
-    font-family: "Helvitica", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: 'Helvitica', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body {
     background-color: #1a1a1a;
@@ -121,7 +121,7 @@ hr {
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 6px;
     background-color: beige;
@@ -141,7 +141,7 @@ hr {
 
 /* The circles on the timeline */
 .container::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 25px;
     height: 25px;
@@ -165,7 +165,7 @@ hr {
 
 /* Add arrows to the left container (pointing right) */
 .left::before {
-    content: " ";
+    content: ' ';
     height: 0;
     position: absolute;
     top: 22px;
@@ -179,7 +179,7 @@ hr {
 
 /* Add arrows to the right container (pointing left) */
 .right::before {
-    content: " ";
+    content: ' ';
     height: 0;
     position: absolute;
     top: 22px;
@@ -239,7 +239,7 @@ hr {
 }
 
 /* Experiment */
-@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
 html {
     position: relative;
     overflow-x: hidden !important;
@@ -437,7 +437,7 @@ html {
 .profile-card__button {
     background: none;
     border: none;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 700;
     font-size: 19px;
     margin: 15px 35px;
@@ -557,7 +557,7 @@ html {
     padding: 15px 20px;
     color: #324e63;
     font-weight: 500;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Quicksand', sans-serif;
     outline: none;
     transition: all 0.3s;
 }
@@ -630,7 +630,7 @@ html {
 }
 
 .right-arrow {
-    border: solid black;
+    border: solid white;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 5px;
@@ -645,7 +645,7 @@ html {
 }
 
 .text-main {
-    font-family: "Helvitica", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: 'Helvitica', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: cornsilk;
 }
