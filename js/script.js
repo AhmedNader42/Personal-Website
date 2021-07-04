@@ -1,6 +1,6 @@
 var slideIndex = 1;
 
-const tabs = ["TinderClone", "_Breakpoint", "RocketChatWatch", "SwiftAlgorithmsClub", "SnapCars"];
+const tabs = ["SnapCars", "VKader", "TinderClone", "_Breakpoint", "RocketChatWatch", "SwiftAlgorithmsClub"];
 
 showSlides(slideIndex);
 
