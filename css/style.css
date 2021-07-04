@@ -19,7 +19,7 @@ hr {
 .section-title {
     text-align: center;
     font-family: system-ui;
-    color: blueviolet;
+    color: black;
 }
 
 /* Personal Photo */
@@ -37,12 +37,6 @@ hr {
 .title {
     color: grey;
     font-size: 18px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
 }
 
 /* Slideshow container */
@@ -131,7 +125,7 @@ a {
     content: '';
     position: absolute;
     width: 6px;
-    background-color: blueviolet;
+    background-color: black;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -617,4 +611,20 @@ a:hover {
 .grid_item {
     width: 12vw;
     height: 24vw;
+}
+
+.technology-tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.technology-tag {
+    font-size: x-large;
+    border-radius: 12px;
+    padding: 4px;
+    border: solid;
+    margin: 10px;
 }

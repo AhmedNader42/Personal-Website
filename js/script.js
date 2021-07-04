@@ -1,6 +1,7 @@
 var slideIndex = 1;
 
-const tabs = ['breakpoint_demo_container', 'watch_demo_container', 'tinder_clone_demo_container', 'algo_club_demo_container'];
+const tabs = ['TinderClone', '_Breakpoint', 'RocketChatWatch', 'SwiftAlgorithmsClub'];
+
 showSlides(slideIndex);
 
 function plusSlides(n) {
