@@ -122,7 +122,7 @@ hr {
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 6px;
     background-color: black;
@@ -142,7 +142,7 @@ hr {
 
 /* The circles on the timeline */
 .container::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 25px;
     height: 25px;
@@ -166,7 +166,7 @@ hr {
 
 /* Add arrows to the left container (pointing right) */
 .left::before {
-    content: ' ';
+    content: " ";
     height: 0;
     position: absolute;
     top: 22px;
@@ -180,7 +180,7 @@ hr {
 
 /* Add arrows to the right container (pointing left) */
 .right::before {
-    content: ' ';
+    content: " ";
     height: 0;
     position: absolute;
     top: 22px;
@@ -240,7 +240,7 @@ hr {
 }
 
 /* Experiment */
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext");
 html {
     position: relative;
     overflow-x: hidden !important;
@@ -441,7 +441,7 @@ a:hover {
 .profile-card__button {
     background: none;
     border: none;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: 700;
     font-size: 19px;
     margin: 15px 35px;
@@ -561,7 +561,7 @@ a:hover {
     padding: 15px 20px;
     color: #324e63;
     font-weight: 500;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
     outline: none;
     transition: all 0.3s;
 }
@@ -611,6 +611,9 @@ a:hover {
 .grid_item {
     width: 12vw;
     height: 24vw;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 .technology-tag-container {
