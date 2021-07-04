@@ -1,14 +1,14 @@
 /* General */
 * {
-    font-family: system-ui;
+    font-family: "Helvitica", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 body {
-    background-color: whitesmoke;
+    background-color: #1a1a1a;
 }
 
 hr {
     width: 90%;
-    background: black;
+    background: beige;
     height: 4px;
 }
 
@@ -19,7 +19,7 @@ hr {
 .section-title {
     text-align: center;
     font-family: system-ui;
-    color: black;
+    color: #c3073f;
 }
 
 /* Personal Photo */
@@ -42,7 +42,6 @@ hr {
 /* Slideshow container */
 .slideshow-container {
     position: relative;
-    background: whitesmoke;
 }
 
 /* Slides */
@@ -125,7 +124,7 @@ hr {
     content: "";
     position: absolute;
     width: 6px;
-    background-color: black;
+    background-color: beige;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -147,8 +146,8 @@ hr {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
-    border: 4px solid #ff9f55;
+    background-color: beige;
+    border: 4px solid #950740;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -173,9 +172,9 @@ hr {
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid gainsboro;
+    border: medium solid #4e4e50;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent gainsboro;
+    border-color: transparent transparent transparent #4e4e50;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -187,9 +186,9 @@ hr {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid gainsboro;
+    border: medium solid #4e4e50;
     border-width: 10px 10px 10px 0;
-    border-color: transparent gainsboro transparent transparent;
+    border-color: transparent #4e4e50 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -200,7 +199,7 @@ hr {
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color: gainsboro;
+    background-color: #4e4e50;
     position: relative;
     border-radius: 6px;
 }
@@ -245,17 +244,14 @@ html {
     position: relative;
     overflow-x: hidden !important;
 }
-a,
-a:hover {
-    text-decoration: none;
-}
+
 .icon {
     display: inline-block;
     width: 1em;
     height: 1em;
     stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+    stroke: white;
+    fill: white;
 }
 .wrapper {
     width: 100%;
@@ -278,7 +274,7 @@ a:hover {
     min-height: 460px;
     margin: auto;
     box-shadow: 0px 8px 60px -10px rgba(13, 28, 39, 0.6);
-    background: #fff;
+    background: #4e4e50;
     border-radius: 12px;
     max-width: 700px;
     position: relative;
@@ -306,7 +302,7 @@ a:hover {
     overflow: hidden;
     position: relative;
     z-index: 4;
-    box-shadow: 0px 5px 50px 0px #6c44fc, 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+    box-shadow: 0px 5px 50px 0px #c3073f, 0px 0px 0px 7px rgb(255 0 76);
 }
 @media screen and (max-width: 576px) {
     .profile-card__img {
@@ -331,13 +327,13 @@ a:hover {
 .profile-card__name {
     font-weight: 700;
     font-size: 24px;
-    color: #6944ff;
+    color: bisque;
     margin-bottom: 15px;
 }
 .profile-card__txt {
     font-size: 18px;
     font-weight: 500;
-    color: #324e63;
+    color: cornsilk;
     margin-bottom: 15px;
 }
 .profile-card__txt strong {
@@ -630,6 +626,7 @@ a:hover {
     padding: 4px;
     border: solid;
     margin: 10px;
+    color: cornflowerblue;
 }
 
 .right-arrow {
@@ -639,4 +636,20 @@ a:hover {
     padding: 5px;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+}
+
+.position-text {
+    color: bisque;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text-main {
+    font-family: "Helvitica", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: large;
+    color: cornsilk;
+}
+
+.date-title {
+    color: lightyellow;
 }

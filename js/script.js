@@ -37,3 +37,7 @@ function showSlides(n) {
     const currentTab = document.getElementById(tabs[(slideIndex - 1) % tabs.length]);
     currentTab.style.display = "block";
 }
+
+function email() {
+    var str = window.open("mailto:ahmednader111@gmail.com", "_blank");
+}
