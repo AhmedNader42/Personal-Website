@@ -46,7 +46,6 @@ hr {
 
 /* Slides */
 .mySlides {
-    display: none;
     padding: 1px;
     text-align: center;
     font-size: xx-large;
@@ -579,7 +578,7 @@ html {
 }
 
 /* image previews */
-.preview-container {
+/* .preview-container {
     display: none;
     border-radius: 20px;
     padding: 10px;
@@ -588,6 +587,11 @@ html {
     flex-flow: wrap;
     justify-content: space-around;
     height: 1000px;
+} */
+
+.preview-image {
+    width: 100%;
+    border-radius: 15px;
 }
 .preview {
     border-radius: 10px;
@@ -626,7 +630,7 @@ html {
     padding: 4px;
     border: solid;
     margin: 10px;
-    color: cornflowerblue;
+    color: white;
 }
 
 .right-arrow {
@@ -652,4 +656,12 @@ html {
 
 .date-title {
     color: lightyellow;
+}
+
+.demo {
+    padding: 10px;
+}
+
+.project-container {
+    padding: 30px;
 }
